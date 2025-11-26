@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
-    "start": "node dist/server.js",
+    "start": "node server.js",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "migrate": "node scripts/migrate.js",
